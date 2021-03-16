@@ -1,7 +1,7 @@
 
-<div class="jumbotron bg-danger text-white text-center">
+<div class="container-fluid bg-danger text-white text-center">
     
-        <h3>Copyright cucc corp</h3>
+        <h1>Copyright cucc corp</h1>
     
 </div>
 
