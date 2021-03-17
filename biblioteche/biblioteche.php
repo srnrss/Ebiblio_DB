@@ -6,18 +6,24 @@ include('/xampp/htdocs/ebiblio/biblioteche/partials/menu.php')
 background: url('/ebiblio/images/bibliofull.jpg') no-repeat  ;
 ">
 
-<div class="row justify-content-center">
-  <div class="card" style="width: 60%;">
-    <div class="card-body p-5 align-self-center">
-    <h1 class="font-weight-light">Ricerca</h1>
-      <p class="lead">Il sistema di gestione biblioteche ufficiale UNIBO!</p>
-      <div style="height: 750px"></div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col">
+        <div class="nav nav-tabs justify-content-center">
+          <a class="nav-item nav-link active" data-toggle="tab" href="#one">Home</a>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active" id="one">
+            This is one
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   </div>
 </div>
 
-
-<?php
-include('/xampp/htdocs/ebiblio/biblioteche/partials/footer.php');
-?>
+  <?php
+  include('/xampp/htdocs/ebiblio/biblioteche/partials/footer.php');
+  ?>
